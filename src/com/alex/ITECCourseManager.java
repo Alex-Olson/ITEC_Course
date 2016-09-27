@@ -34,9 +34,13 @@ public class ITECCourseManager {
 
         javaCourse.writeCourseInfo();
 
+        ITECCourse conceptsCourse = new ITECCourse("Info Tech Concepts", 1100, 30, "T3050");
 
+        conceptsCourse.addStudent("Max");
+        conceptsCourse.addStudent("Nancy");
+        conceptsCourse.addStudent("Orson");
 
-
+        conceptsCourse.writeCourseInfo();
 
     }
 }
