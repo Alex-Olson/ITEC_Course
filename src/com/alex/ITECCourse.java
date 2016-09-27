@@ -99,4 +99,8 @@ public class ITECCourse {
     public int getNumberOfStudents() {
         return this.students.size();
     }
+
+    public int getSeatsRemaining(){
+        return this.maxStudents - this.students.size();
+    }
 }
